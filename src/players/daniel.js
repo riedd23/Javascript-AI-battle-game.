@@ -75,29 +75,29 @@ var AI = {
 
 
 
-    // if (playerState.position[0] == 0) {
-    //   if (playerState.direction == 'south'){
-    //     move = 'move'
-    //   }
-    //   move = 'south'
-    // } else if (playerState.position[1] == 12) {
-    //   if (playerState.direction == 'north') {
-    //     move = 'move'
-    //   }
-    //   move = 'north'
-    // } else if (playerState.position[1] == 0) {
-    //   if (playerState.direction == 'west') {
-    //     move = 'move'
-    //   }
-    //   move = 'west'
-    // } else if (playerState.position[0] == 12) {
-    //   if (playerState.direction == 'left') {
-    //     move = 'move'
-    //   }
-    //   move = 'left'
-    // }
-    
-    // return move
+    if (playerState.position[0] == 0) {
+      if (playerState.direction == 'south'){
+        move = 'move'
+      }
+      move = 'south'
+    } else if (playerState.position[1] == 12) {
+      if (playerState.direction == 'north') {
+        move = 'move'
+      }
+      move = 'north'
+    } else if (playerState.position[1] == 0) {
+      if (playerState.direction == 'west') {
+        move = 'move'
+      }
+      move = 'west'
+    } else if (playerState.position[0] == 12) {
+      if (playerState.direction == 'left') {
+        move = 'move'
+      }
+      move = 'left'
+    }
+
+    return move
 
   }
 };
