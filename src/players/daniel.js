@@ -12,7 +12,7 @@ var AI = {
     var kill;
     var move = null
 
-    
+    //Hello this is daniel
 
     console.log(playerState.ammo)
 
