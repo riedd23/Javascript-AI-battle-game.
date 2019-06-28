@@ -14,6 +14,10 @@ var AI = {
 
     //Hello this is daniel
 
+    // NO you gay
+
+    //big gay
+
     console.log(playerState.ammo)
 
     if (utils.canKill(playerState, enemiesStates) && playerState.ammo) {
